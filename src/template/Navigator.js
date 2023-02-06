@@ -30,7 +30,11 @@ const categories = [
         href: "/",
       },
       { id: "Test", icon: <DnsRoundedIcon />, href: "/test" },
-      { id: "Storage", icon: <PermMediaOutlinedIcon />, href: "/test2" },
+      {
+        id: "Create Document",
+        icon: <PermMediaOutlinedIcon />,
+        href: "/create-document",
+      },
       { id: "Hosting", icon: <PublicIcon />, href: "/test3" },
       { id: "Functions", icon: <SettingsEthernetIcon />, href: "/test3" },
       {

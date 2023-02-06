@@ -7,8 +7,9 @@ import Typography from "@mui/material/Typography"
 import Link from "@mui/material/Link"
 import Navigator from "./Navigator"
 import Content from "./Content"
-import Header from "./Header"
 import Test from "./Test"
+import CreateDocument from "./CreateDocument"
+import Header from "./Header"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Test />,
+  },
+  {
+    path: "/create-document",
+    element: <CreateDocument />,
   },
 ])
 
